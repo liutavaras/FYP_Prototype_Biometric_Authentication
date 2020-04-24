@@ -1,0 +1,492 @@
+
+/*
+  Customised Styles - move elsewhere
+ */
+
+body#cas {
+    background: rgb(235, 235, 235);
+    font-family: Verdana,Arial,Helvetica,Sans-Serif;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+#container {
+    background: #ffffff;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    width: 912px;
+}
+
+a, a:link {
+    background-color:inherit;
+    color:#000099;
+    text-decoration:underline;
+}
+
+a:visited {
+    background-color:inherit;
+    color:#9966CC;
+}
+
+a:hover, a:active {
+    background-color:inherit;
+    color:#9999CC;
+    text-decoration:underline;
+}
+
+#top_logo {
+    float:left;
+    margin: 0px 25px 25px 0px;
+    padding: 0px;
+    display: inline-block;
+    border: 0px;
+}
+
+
+
+
+#login {
+
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+
+}
+
+div.sidebar-content {
+    width: 320px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    clear: both;
+    display: block;
+
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(204, 204, 204);
+}
+
+header h1 {
+    display: inline-block;
+    background: none;
+    text-indent: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: none;
+    background-color: transparent;
+    color: rgb(102, 0, 153);
+    padding-bottom: 15px;
+    font-size: 2.4em;
+    white-space: nowrap;
+    height: auto;
+    width: auto;
+}
+
+#caption {
+
+
+}
+
+/* */
+#login {
+    padding: 15px;
+    margin-left: 45px;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 30px;
+}
+
+
+
+
+#cas #login h2 {
+    border-bottom: 1px solid #ddd;
+    padding: 3px 0;
+    font: normal 400 17px Verdana,Arial,Helvetica,Sans-Serif;
+    color: #333;
+}
+
+input {
+    min-height: 32px;
+}
+
+span.accesskey {
+    text-decoration:underline;
+}
+
+input.required {
+    background: #ffd;
+}
+
+#cas #login label {
+    font-size: 11px;
+    color: #777;
+}
+
+#login .btn-submit {
+    background-color: #cb60b3;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #c146a1;
+    background: -moz-linear-gradient(top, #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* firefox */
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb60b3), color-stop(50%,#c146a1), color-stop(51%,#a80077), color-stop(100%,#db36a4)); /* webkit */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* ie */
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 1.6em;
+    cursor: pointer;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 0;
+    font-weight: normal;
+    padding: 3px;
+}
+
+
+#login .btn-submit:active {
+    background: #a80077;
+    border: 2px solid #555;
+    color: #999;
+}
+
+#login .btn-submit:hover {
+    background: #a80077;
+    border: 1px solid #c146a1;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    color: black;
+    min-height: 100px;
+    border-top: 1px solid #999999;
+}
+
+/* */
+
+
+
+#softwareinfo {
+    float: left;
+    text-align: left;
+    margin-right: 5px;
+    width: 295px;
+    white-space: nowrap;
+    color: #999;
+}
+
+#ownerinfo {
+    float: right;
+    text-align: right;
+    margin-left: 10px;
+    width: 300px;
+    color: #999;
+}
+
+footer a:link, footer a:visited {
+    color: #000099;
+    text-decoration: underline;
+}
+
+.row.btn-row {
+    border-top: 1px solid #ddd;
+}
+
+#aup_block {
+    overflow: hidden;
+    position: static;
+    display: block;
+    width: 300px;
+    height: 120px;
+    margin: 10px 5px 5px 50px;
+    border: none;
+    padding: 5px;
+    color: #000;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 0.8em;
+    visibility: hidden;
+
+}
+
+#logincol {
+    clear: both;
+    float:      left;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 105px;
+    padding:     0px 0px 0px 0px;
+    width: 320px;
+    display: inline-block;
+}
+
+#cas #login .btn-reset {
+    float: none;
+    clear: none;
+    margin-left: 5px;
+    border: 0;
+    border-left: 1px solid #ddd;
+    background: transparent;
+    color: #777;
+    text-transform: lowercase;
+    letter-spacing: 0;
+}
+
+
+
+
+
+
+#support_information h3 {
+    background: #f6f8f9 !important;
+    background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(50%,#e5ebee), color-stop(51%,#d7dee3), color-stop(100%,#f5f7f9)) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ) !important;
+    color: #0066cc;
+
+
+    font-family: Verdana,Arial,Helvetica,Sans-Serif;
+    font-weight: bold;
+
+    color: #0066cc;
+    background-color: inherit;
+    text-decoration: underline;
+    background-image: none;
+    font-size: 1.1em;
+
+    margin-top: 18px;
+
+}
+
+#support_information h3 a:visited {
+    color: #0066cc;
+    background-color: inherit;
+    text-decoration: underline;
+    background-image: none;
+}
+
+
+
+#support_information h3:first-child {
+    margin-top: 0px;
+}
+
+span#secure_url {
+    color: #009933;
+}
+
+
+/* Logout Stuff */
+
+#logoutwarning {
+    background-color: #FF9999;
+    position: relative;
+    float: right;
+    margin: 10px;
+    width: 270px;
+    padding: 0px;
+    border:  1px solid #cc3333;
+}
+
+#logoutwarning h3 {
+    font-family: Verdana,Arial,Helvetica,Sans-Serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #cc3333;
+    color: #fff;
+    padding: 5px;
+    margin: 0px;
+}
+
+#logoutwarning ol {
+    padding-right: 5px;
+}
+
+#logoutwarning ol li {
+    margin: 3px;
+}
+
+#logoutwarning p {
+    padding: 5px;
+}
+
+
+#logout {
+    background:#EEEEEE none repeat scroll 0 0;
+    border:0 none;
+    float:left;
+    margin: 0px 10px 20px 10px;
+    padding:15px;
+    width: 250px;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border: 1px solid darkgrey;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+
+}
+
+#logout:before {
+    background: none;
+}
+
+#logout:after {
+    background: none;
+}
+
+#logout h2 {
+    -x-system-font:none;
+    border-bottom:1px solid #DDDDDD;
+    color:#333333;
+    font-family: Verdana,Arial,Helvetica,Sans-Serif;
+    font-size:17px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:400;
+    line-height:normal;
+    padding:3px 0;
+}
+#logout label {
+    font-size:11px;
+}
+#logout label span.accesskey {
+    text-decoration:underline;
+}
+#logout p {
+    background: #eee;
+}
+
+#logoutbutton {
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #c146a1;
+    background: #cb60b3; /* old browsers */
+    background: -moz-linear-gradient(top, #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* firefox */
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb60b3), color-stop(50%,#c146a1), color-stop(51%,#a80077), color-stop(100%,#db36a4)); /* webkit */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* ie */
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+
+
+#logoutbutton:active {
+    background: #a80077;
+    border: 2px solid #555;
+    color: #999;
+}
+
+
+#placestogo {
+    background-color: #ccccff;
+    clear: left;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 400px;
+    padding: 0px;
+    min-height: 160px;
+    float: right;
+    border: 1px solid #6666cc;
+    background: -moz-linear-gradient(top, #ccccff 0%, #6d88b7 100%); /* firefox */
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccccff), color-stop(100%,#6d88b7)); /* webkit */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccccff', endColorstr='#6d88b7',GradientType=0 ); /* ie */
+}
+
+#placestogo h3 {
+    font-family: Verdana,Arial,Helvetica,Sans-Serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #6666cc;
+    color: #fff;
+    padding: 5px 0px 5px 5px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+#placestogo ol {
+    padding-right: 5px;
+}
+
+#placestogo ol li {
+    margin: 3px;
+}
+
+#placestogo p {
+    padding: 5px;
+}
+
+#placestogo p a, #placestogo p a:link, #placestogo p a:visited {
+    color: #fff;
+    background-color:inherit;
+    text-decoration:underline;
+    background-image: none;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+#relogin {
+    background: #f5f5f5; none repeat scroll 0 0;
+    border:0 none;
+    float:left;
+    margin: 0px 10px 20px 10px;
+    padding: 8px;
+    width: 320px;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    font-size: 1.2em;
+    border-radius: 9px;
+    -moz-border-radius: 9px;
+    border: 1px solid darkgrey;
+}
+
+
+#portalshot {
+    border: 1px solid #000;
+    text-align: right;
+    float: right;
+    margin: 4px;
+}
+
+section#option_ticks p {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 855px) {
+    body#cas {background-color: white; }
+    #container { width: 350px; padding-left: 0px; }
+    #top_logo { display: none; }
+    #caption {width: 300px; }
+    header h1 { clear: both; }
+    #content { padding: 0px; }
+    #logincol { margin:  0px;}
+    #login { float: none; width: 100%; margin-left: 0px; }
+    #fm1 .row .btn-reset { display: none; }
+    #sidebar { margin-top: 20px; }
+    #sidebar .sidebar-content { padding: 0px; clear: both; margin-left: 0px; }
+    #placestogo { width: 330px; margin-left: 0px; margin-right: 0px; float: left; }
+}
